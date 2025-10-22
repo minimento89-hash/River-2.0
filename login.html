@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accedi in River</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Accedi</h1>
+            <div class="brand">in <span class="river-brand">River</span></div>
+        </div>
+
+        <form id="loginForm" class="login-form">
+            <div class="input-group">
+                <label for="username">Nome Utente</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+            </div>
+
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Ricordami</label>
+            </div>
+
+            <button type="submit" class="login-btn">Accedi</button>
+        </form>
+
+        <div class="login-footer">
+            <span>Italiano</span>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

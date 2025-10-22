@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="user-profile">
+                    <div class="avatar-container">
+                        <img id="userAvatar" src="" alt="Avatar" class="avatar">
+                    </div>
+                    <div class="user-info">
+                        <div id="userName" class="username">Utente</div>
+                        <div id="userStatus" class="status online">Online</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-center">
+                <button class="nav-btn active" data-section="home">Home</button>
+                <button class="nav-btn" data-section="profile">Profilo</button>
+                <button class="nav-btn" data-section="settings">Impostazioni</button>
+            </div>
+            
+            <div class="nav-right">
+                <span class="app-version">River 2.0</span>
+            </div>
+        </nav>
+
+        <nav class="sub-navbar" id="subNavbar">
+        </nav>
+
+        <main class="main-content" id="mainContent">
+        </main>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
